@@ -1,0 +1,8 @@
+.main-page {
+  margin-top: 80px;
+  flex-grow: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

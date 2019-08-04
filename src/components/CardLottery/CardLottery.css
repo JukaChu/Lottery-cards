@@ -1,0 +1,35 @@
+.card-lottery {
+  width: calc(100% / 5 - 10px);
+  height: 200px;
+  border: 2px solid green;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card-lottery--invalid {
+  border-color: red;
+  box-shadow: 0 0 16px rgba(38, 38, 38, 0.46);
+}
+
+.card-lottery__number {
+  margin-top: 10px;
+  width: calc(100% / 5 - 3px);
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #61dafb;
+  cursor: pointer;
+  outline: none;
+}
+
+.card-lottery__number--choose {
+  color: red;
+  background: url(./choose.svg);
+  background-size: cover;
+}
+
+.card-lottery__number--win {
+  background-color: green;
+  border-color: green;
+}

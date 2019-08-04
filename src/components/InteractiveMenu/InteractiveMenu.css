@@ -1,0 +1,29 @@
+.interactive-menu {
+  margin-bottom: 300px;
+}
+
+.interactive-menu__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.interactive-menu__lottery-button {
+  border: 1px solid blue;
+  border-radius: 10px;
+  color: black;
+  width: 150px;
+  height: 40px;
+  background-color: transparent;
+  outline: none;
+}
+
+.interactive-menu__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.interactive-menu__lottery-button--valid {
+  background-color: greenyellow;
+  cursor: pointer;
+}

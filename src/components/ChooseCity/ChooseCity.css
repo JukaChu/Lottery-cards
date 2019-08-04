@@ -1,0 +1,77 @@
+.choose-city__dropdown + .choose-city__dropdown {
+  margin-left: 100px;
+}
+
+.choose-city__list {
+  display: none;
+}
+
+.choose-city__list--visible {
+  display: block;
+}
+
+.choose-city__dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.choose-city__button-selector {
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 10px 30px 10px 20px;
+  background-color: #ffffff;
+  cursor: pointer;
+  white-space: nowrap;
+  width: 150px;
+}
+
+.choose-city__button-selector:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+}
+
+.choose-city__button-selector:hover {
+  background-color: #eeeeee;
+}
+
+.dd-input {
+  display: none;
+}
+
+.choose-city__list {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0;
+  margin: 2px 0 0 0;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  list-style-type: none;
+}
+
+.choose-city__list li {
+  padding: 10px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.choose-city__list li:hover {
+  background-color: #f6f6f6;
+}
+
+.choose-city__list li a {
+  display: block;
+  margin: -10px -20px;
+  padding: 10px 20px;
+}

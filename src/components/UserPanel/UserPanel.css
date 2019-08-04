@@ -1,0 +1,43 @@
+.user-panel {
+  width: 230px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-panel__basket {
+  border: 1px solid transparent;
+  background: none;
+  outline: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.user-panel__registration {
+  width: 80px;
+  height: 40px;
+  border: none;
+  border-radius: 2px;
+  background: black /*var(--black)*/;
+  color: white /*var(--white)*/;
+  /*font-family: !*var(--main-font)*!;*/
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  cursor: pointer;
+  outline: none;
+}
+
+.user-panel__sign-in {
+  /*border: !*var(--border)*!;*/
+  border-radius: 2px;
+  width: 80px;
+  height: 40px;
+  background: none;
+  /*font-family: !*var(--main-font)*!;*/
+  /*color: !*var(--main-font-color)*!;*/
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  cursor: pointer;
+  outline: none;
+}
