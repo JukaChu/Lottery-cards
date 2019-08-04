@@ -13,7 +13,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier --write \"src/**/*.{js,jsx,css}\""
+    "format": "prettier --write \"src/**/*.{js,jsx,css}\"",
+    "rename-index": "node -e \"require('fs').rename('./build/index.html', './build/200.html', (err) => { console.log(err ? err : 'File renamed!') })\"",
+    "predeploy": "npm run build && npm run rename-index",
+    "deploy": "surge --project ./build --domain lottery-cards-jukachu.surge.sh"
   },
   "eslintConfig": {
     "extends": "react-app"
